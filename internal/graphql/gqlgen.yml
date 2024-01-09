@@ -1,0 +1,31 @@
+skip_validation: true
+skip_mod_tidy: true
+omit_gqlgen_version_in_file_notice: true
+
+schema:
+  - ./graphql/schema/*.gql
+
+exec:
+  filename: ./graphql/gqlhandler/gqlhandler.go
+  package: gqlhandler
+
+model:
+  filename: ./models/graphql.go
+  package: models
+
+resolver:
+  layout: follow-schema
+  dir: ./graphql/resolver
+  package: resolver
+  filename_template: "{name}_resolvers.go"
+
+autobind:
+  - github.com/lrstanley/ent-bug-edge-schema/internal/database/ent
+
+models:
+  ID:
+    model:
+      - github.com/99designs/gqlgen/graphql.IntID
+  Node:
+    model:
+      - github.com/lrstanley/ent-bug-edge-schema/internal/database/ent.Noder
