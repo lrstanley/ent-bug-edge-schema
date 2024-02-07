@@ -10,7 +10,7 @@ require (
 	github.com/99designs/gqlgen v0.17.42
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/lib/pq v1.10.7
+	github.com/lib/pq v1.10.9
 	github.com/mattn/go-sqlite3 v1.14.16
 	github.com/vektah/gqlparser/v2 v2.5.10
 	golang.org/x/sync v0.5.0
