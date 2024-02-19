@@ -7,13 +7,13 @@ toolchain go1.21.5
 require (
 	entgo.io/contrib v0.4.5
 	entgo.io/ent v0.12.5
-	github.com/99designs/gqlgen v0.17.42
+	github.com/99designs/gqlgen v0.17.44
 	github.com/go-sql-driver/mysql v1.7.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/lib/pq v1.10.7
 	github.com/mattn/go-sqlite3 v1.14.16
-	github.com/vektah/gqlparser/v2 v2.5.10
-	golang.org/x/sync v0.5.0
+	github.com/vektah/gqlparser/v2 v2.5.11
+	golang.org/x/sync v0.6.0
 )
 
 require (
@@ -23,7 +23,7 @@ require (
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/go-openapi/inflect v0.19.0 // indirect
 	github.com/google/go-cmp v0.6.0 // indirect
-	github.com/google/uuid v1.5.0 // indirect
+	github.com/google/uuid v1.6.0 // indirect
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/hcl/v2 v2.19.1 // indirect
 	github.com/mitchellh/go-wordwrap v1.0.1 // indirect
@@ -34,6 +34,6 @@ require (
 	golang.org/x/exp v0.0.0-20240103183307-be819d1f06fc // indirect
 	golang.org/x/mod v0.14.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/tools v0.16.1 // indirect
+	golang.org/x/tools v0.17.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
